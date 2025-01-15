@@ -1,0 +1,15 @@
+{
+  "name": "back-end-eind-project",
+  "version": "1.0.0",
+  "description": "PRIVIET",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./resources/css/app.css -o ./public/css/app.css --watch",
+    "build": "npx tailwindcss -i ./resources/css/app.css -o ./public/css/app.css --minify"
+  },
+  "author": "Lars werndly",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
